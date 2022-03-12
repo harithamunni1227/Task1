@@ -1,0 +1,21 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email, .password .name {
+    padding: 20px;
+}
+/* .password {
+    padding: 20px;
+} */
+.btns{
+    padding: 10px;
+}
+.iptEle {
+    padding-left: 20px;
+}
+
+.twobts {
+    margin-top: 20px;
+}

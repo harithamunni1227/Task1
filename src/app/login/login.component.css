@@ -1,0 +1,17 @@
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email {
+    padding: 20px;
+}
+/* .password {
+    padding: 20px;
+} */
+.btns{
+    padding: 10px;
+}
+.iptEle {
+    padding-left: 20px;
+}

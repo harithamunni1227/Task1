@@ -1,0 +1,35 @@
+<div class="loginPage">
+   <div>
+    <div>
+        <h3>Login Here !</h3>
+    </div>
+
+    <tr>
+        <td>
+            <label>Email</label>
+        </td>
+        <td>
+        <input class="iptEle" type="email" [(ngModel)]="Username"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>Password</label>
+        </td>
+        <td>
+            <input class="iptEle" type="password" [(ngModel)]="Password" />
+        </td>
+    </tr>
+    <tr style="margin-top: 10px;">
+        <td>
+        </td>
+        <td class="twobts">
+            <button (click)="HandleLogin()">Login</button>
+            <button (click)="submit()">Register</button>
+        </td>
+    </tr>
+
+
+    <p style="color: red;">{{message}}</p>
+</div>
+</div>

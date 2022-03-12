@@ -1,0 +1,45 @@
+<div class="register">
+    <div>
+        <div>
+            <h3>Register Here !</h3>
+        </div>
+
+
+        <tr>
+          <td>
+              <label>Full Name</label>
+          </td>
+          <td>
+              <input class="iptEle" type="text" [(ngModel)]="Fullname"/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <label>Email</label>
+          </td>
+          <td>
+            <input  class="iptEle" type="email" [(ngModel)]="Username"/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <label>Password</label>
+              
+          </td>
+          <td>
+            <input class="iptEle" type="password" [(ngModel)]="Password"/>
+          </td>
+        </tr>
+        
+        <tr >
+            <td>
+            </td>
+            <td class="twobts">
+                <button (click)="HandleRegister()">Login</button>
+                <button (click)="submit()">Register</button>
+            </td>
+        </tr>
+    
+        
+    </div>
+</div>
